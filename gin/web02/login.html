@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <form  action="http://localhost:2333/login" method="post" enctype="pplication/x-www-form-urlencoded">
+        <table>
+            <tr>
+                <th align="left">username:</th>
+                <th align="left"><input type="text" name="username"/></th> 
+            </tr>
+            
+            <tr>
+            <th align="left">password:</th>
+            <th align="left"><input type="text" name="password"/></th>
+            </tr>
+    
+            <tr>
+                <th align="left">hobby:</th>
+                <th align="left">
+                    <input type="checkbox" value="game" name="hobby"/>game&nbsp;
+                    <input type="checkbox" value="animation" name = "hobby"/>animation&nbsp;
+                    <input type="checkbox" value="web" name="hobby"/>web&nbsp;
+                </th>
+            </tr>
+            
+            <tr>
+            <th align="center" colspan="2"><input type="submit" value="login" /></th>
+            </tr>
+        </table>
+    </form>
+    <form action="http://localhost:2333/upload" method="post" enctype="multipart/form-data">
+        <input name="img" type="file"/><input type="submit" value="summit"/>
+    </form>
+    <form action="http://localhost:2333/multiPart" method="post" enctype="multipart/form-data" >
+        <input name="data" type="file" multiple />
+        <input name="username" type="text" value="loop">
+        <input type="checkbox" value="game" name = "hobby"/>game&nbsp;
+        <input type="checkbox" value="animation" name = "hobby"/>animation&nbsp;
+        <input type="submit" value="summit"/>
+    </form>
+</body>
+</html>

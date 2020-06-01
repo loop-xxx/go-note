@@ -1,0 +1,66 @@
+[INFO] hello, loop
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[INFO] 255
+[ERROR] 255
+[DEBUG] hello, loop
+[INFO] hello, loop
+[WARING] hello, loop
+[ERROR] hello, loop
+[DEBUG] 255
+[WARing] 255
+[INFO] 255
+[ERROR] 255
+[ERROR] hello, loop
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[WARING] hello, loop
+[ERROR] hello, loop
+[WARing] 255
+[ERROR] 255
+[DEBUG] hello, loop
+[INFO] hello, loop
+[WARING] hello, loop
+[ERROR] hello, loop
+[DEBUG] 255
+[WARing] 255
+[INFO] 255
+[ERROR] 255
+[TRACE] hello, loop
+[DEBUG] hello, loop
+[INFO] hello, loop
+[WARING] hello, loop
+[ERROR] hello, loop
+[TRACE] 255
+[WARing] 255
+[INFO] 255
+[ERROR] 255
+[TRACE] hello, loop
+[DEBUG] hello, loop
+[INFO] hello, loop
+[WARING] hello, loop
+[ERROR] hello, loop
+[TRACE] 255
+[WARing] 255
+[INFO] 255
+[ERROR] 255

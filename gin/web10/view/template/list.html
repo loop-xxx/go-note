@@ -1,0 +1,30 @@
+{{define "list.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>uuid</th><th>url</th><th>date</th><th>desc</th><th>option</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{range .urlList}}
+            <tr>
+                <th>{{.UUID}}</th>
+                <th><a href="{{.Url}}">{{.Title}}</a></th>
+                <th>{{.Date}}</th>
+                <th>{{.Desc}}</th>
+                <th><a href="/delete/{{.UUID}}">delete</a></th>
+            </tr>
+         {{end}}
+        <tr><td colspan="5" align="center"><a href="/static/to_add.html">add</a></td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
+{{end}}
